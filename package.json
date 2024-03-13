@@ -1,0 +1,24 @@
+{
+  "name": "zod-introduction",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start:simple": "bun run ./src/simple-example.ts",
+    "start:medium": "bun run ./src/medium-example.ts",
+    "start:advanced": "bun run ./src/advanced-example.ts",
+    "start:utility": "bun run ./src/utility.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "typescript-eslint": "^7.1.1",
+    "zod": "3.21.4",
+    "zod-openapi": "^2.14.0",
+    "zod-to-json-schema": "^3.22.4"
+  }
+}
